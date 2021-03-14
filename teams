@@ -1,0 +1,31 @@
+1 New Jersey Devils /api/v1/teams/1 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 23, 'teamName': 'Devils', 'link': '/api/v1/franchises/23'}
+2 New York Islanders /api/v1/teams/2 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 22, 'teamName': 'Islanders', 'link': '/api/v1/franchises/22'}
+3 New York Rangers /api/v1/teams/3 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 10, 'teamName': 'Rangers', 'link': '/api/v1/franchises/10'}
+4 Philadelphia Flyers /api/v1/teams/4 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 16, 'teamName': 'Flyers', 'link': '/api/v1/franchises/16'}
+5 Pittsburgh Penguins /api/v1/teams/5 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 17, 'teamName': 'Penguins', 'link': '/api/v1/franchises/17'}
+6 Boston Bruins /api/v1/teams/6 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 6, 'teamName': 'Bruins', 'link': '/api/v1/franchises/6'}
+7 Buffalo Sabres /api/v1/teams/7 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 19, 'teamName': 'Sabres', 'link': '/api/v1/franchises/19'}
+8 Montréal Canadiens /api/v1/teams/8 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 1, 'teamName': 'Canadiens', 'link': '/api/v1/franchises/1'}
+9 Ottawa Senators /api/v1/teams/9 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 30, 'teamName': 'Senators', 'link': '/api/v1/franchises/30'}
+10 Toronto Maple Leafs /api/v1/teams/10 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 5, 'teamName': 'Maple Leafs', 'link': '/api/v1/franchises/5'}
+12 Carolina Hurricanes /api/v1/teams/12 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 26, 'teamName': 'Hurricanes', 'link': '/api/v1/franchises/26'}
+13 Florida Panthers /api/v1/teams/13 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 33, 'teamName': 'Panthers', 'link': '/api/v1/franchises/33'}
+14 Tampa Bay Lightning /api/v1/teams/14 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 31, 'teamName': 'Lightning', 'link': '/api/v1/franchises/31'}
+15 Washington Capitals /api/v1/teams/15 {'id': 25, 'name': 'MassMutual East', 'link': '/api/v1/divisions/25'} {'franchiseId': 24, 'teamName': 'Capitals', 'link': '/api/v1/franchises/24'}
+16 Chicago Blackhawks /api/v1/teams/16 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 11, 'teamName': 'Blackhawks', 'link': '/api/v1/franchises/11'}
+17 Detroit Red Wings /api/v1/teams/17 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 12, 'teamName': 'Red Wings', 'link': '/api/v1/franchises/12'}
+18 Nashville Predators /api/v1/teams/18 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 34, 'teamName': 'Predators', 'link': '/api/v1/franchises/34'}
+19 St. Louis Blues /api/v1/teams/19 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 18, 'teamName': 'Blues', 'link': '/api/v1/franchises/18'}
+20 Calgary Flames /api/v1/teams/20 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 21, 'teamName': 'Flames', 'link': '/api/v1/franchises/21'}
+21 Colorado Avalanche /api/v1/teams/21 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 27, 'teamName': 'Avalanche', 'link': '/api/v1/franchises/27'}
+22 Edmonton Oilers /api/v1/teams/22 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 25, 'teamName': 'Oilers', 'link': '/api/v1/franchises/25'}
+23 Vancouver Canucks /api/v1/teams/23 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 20, 'teamName': 'Canucks', 'link': '/api/v1/franchises/20'}
+24 Anaheim Ducks /api/v1/teams/24 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 32, 'teamName': 'Ducks', 'link': '/api/v1/franchises/32'}
+25 Dallas Stars /api/v1/teams/25 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 15, 'teamName': 'Stars', 'link': '/api/v1/franchises/15'}
+26 Los Angeles Kings /api/v1/teams/26 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 14, 'teamName': 'Kings', 'link': '/api/v1/franchises/14'}
+28 San Jose Sharks /api/v1/teams/28 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 29, 'teamName': 'Sharks', 'link': '/api/v1/franchises/29'}
+29 Columbus Blue Jackets /api/v1/teams/29 {'id': 26, 'name': 'Discover Central', 'link': '/api/v1/divisions/26'} {'franchiseId': 36, 'teamName': 'Blue Jackets', 'link': '/api/v1/franchises/36'}
+30 Minnesota Wild /api/v1/teams/30 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 37, 'teamName': 'Wild', 'link': '/api/v1/franchises/37'}
+52 Winnipeg Jets /api/v1/teams/52 {'id': 28, 'name': 'Scotia North', 'link': '/api/v1/divisions/28'} {'franchiseId': 35, 'teamName': 'Jets', 'link': '/api/v1/franchises/35'}
+53 Arizona Coyotes /api/v1/teams/53 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 28, 'teamName': 'Coyotes', 'link': '/api/v1/franchises/28'}
+54 Vegas Golden Knights /api/v1/teams/54 {'id': 27, 'name': 'Honda West', 'link': '/api/v1/divisions/27'} {'franchiseId': 38, 'teamName': 'Golden Knights', 'link': '/api/v1/franchises/38'}
