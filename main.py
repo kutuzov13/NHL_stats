@@ -9,7 +9,7 @@ def get_all_teams():
 
 
 def get_stats_team(team_id):
-    """Returns a dict with statistics for the current season"""
+    """Returns a dict with statistics for the current season."""
     api_stats = f'https://statsapi.web.nhl.com/api/v1/teams/{team_id}'
     params = {'expand': 'team.stats'}
     response = requests.get(api_stats, params=params).json()
