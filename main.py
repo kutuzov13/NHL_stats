@@ -2,7 +2,7 @@ import requests
 
 
 def get_all_teams():
-    """Returns all teams NHL"""
+    """Returns all teams NHL."""
     api_nhl = 'https://statsapi.web.nhl.com/api/v1/teams'
     response = requests.get(api_nhl).json()
     return response['teams']
