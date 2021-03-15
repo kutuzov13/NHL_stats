@@ -21,3 +21,15 @@ def get_stats_team(team_id):
     params = {'expand': 'team.stats'}
     response = requests.get(api_stats, params=params).json()
     return response['teams'][0]['teamStats'][0]['splits'][0]['stat']
+
+
+def get_stats_player(player_id, season):
+    """Returns stats player by its ID and season."""
+    api_nhl = f'https://statsapi.web.nhl.com/api/v1/people/{player_id}/stats'
+    params = {'stats': 'statsSingleSeason',
+              'season': season  # Example 20202021
+              }
+    response = requests.get(api_nhl, params=params).json()
+    return response['stats']
+
+
