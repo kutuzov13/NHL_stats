@@ -2,10 +2,17 @@ import requests
 
 
 def get_all_teams():
-    nhl_api = 'https://statsapi.web.nhl.com/api/v1/teams'
-    response = requests.get(nhl_api).json()
-    for team in response['teams']:
-        print(team['id'], team['name'], team['link'], team['division'], team['franchise'])
+    """Returns all teams NHL"""
+    api_nhl = 'https://statsapi.web.nhl.com/api/v1/teams'
+    response = requests.get(api_nhl).json()
+    return response['teams']
+
+
+def get_all_team_players(team_id):
+    """Returns all team members by team ID."""
+    api_nhl = f'https://statsapi.web.nhl.com/api/v1/teams/{team_id}/roster'
+    response = requests.get(api_nhl).json()
+    return response['roster']
 
 
 def get_stats_team(team_id):
@@ -14,6 +21,3 @@ def get_stats_team(team_id):
     params = {'expand': 'team.stats'}
     response = requests.get(api_stats, params=params).json()
     return response['teams'][0]['teamStats'][0]['splits'][0]['stat']
-
-
-print(get_stats_team(5))
